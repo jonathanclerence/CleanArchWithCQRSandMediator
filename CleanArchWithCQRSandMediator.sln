@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchWithCQRSandMediato
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchWithCQRSandMediator.webapprazor", "CleanArchWithCQRSandMediator.webapprazor\CleanArchWithCQRSandMediator.webapprazor.csproj", "{8DF9FFB4-89BA-4B30-949B-097D8BCACA69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchWithCQRSandMediator.Blazor", "CleanArchWithCQRSandMediator.Blazor\CleanArchWithCQRSandMediator.Blazor.csproj", "{4EE1E864-1AF0-4DC6-B626-C7D6CD79D60C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8DF9FFB4-89BA-4B30-949B-097D8BCACA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF9FFB4-89BA-4B30-949B-097D8BCACA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF9FFB4-89BA-4B30-949B-097D8BCACA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE1E864-1AF0-4DC6-B626-C7D6CD79D60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE1E864-1AF0-4DC6-B626-C7D6CD79D60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE1E864-1AF0-4DC6-B626-C7D6CD79D60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE1E864-1AF0-4DC6-B626-C7D6CD79D60C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

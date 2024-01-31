@@ -1,0 +1,38 @@
+﻿@using CleanArchWithCQRSandMediator.Application.Blogs.Queries.GetBlogs;
+
+@if (IsVisibleView)
+{
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="d-inline">Blog details - Basic </h3>
+        </div>
+        <div class="col-md-6 text-end">
+            <button class="d-inline btn btn-primary" @onclick="BackToBlogList">Back to Blog list </button>
+        </div>
+    </div>
+    
+}
+
+@if (editBlog = null)
+{
+    <h1>No Blog Details found for this Blog</h1>
+
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card mt-5 firma-card">
+                    <div class="img-container">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+
+}
